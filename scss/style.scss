@@ -1,0 +1,43 @@
+
+
+// @import './abstracts/mixins';
+// @import './abstracts/variables';
+
+// @import './components/button';
+// @import './components/footer';
+// @import './components/input';
+// @import './components/navbar';
+// @import './components/responsive';
+// @import './pages/home';
+// @import './pages/about';
+// @import './pages/services';
+
+//-------------------------------------------//
+
+
+// @use './abstracts/mixins';
+// @use './abstracts/variables';
+
+// @use './components/button';
+// @use './components/footer';
+// @use './components/input';
+// @use './components/navbar';
+// @use './components/responsive';
+
+
+@use './pages/home';
+
+@use './pages/home';
+@use './pages/about';
+@use './pages/services';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}

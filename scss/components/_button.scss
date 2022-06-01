@@ -1,0 +1,10 @@
+.btn {
+    background-color: #e8491d !important;
+    border-radius: 0 !important;
+    max-width: fit-content;
+    color: #fff;
+    &:hover {
+        background-color: #ee7655 !important;
+        color: #fff;
+    }
+}
