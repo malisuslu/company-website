@@ -24,19 +24,11 @@
 // @use './components/navbar';
 // @use './components/responsive';
 
-
-@use './pages/home';
+@use './components';
 
 @use './pages/home';
 @use './pages/about';
 @use './pages/services';
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     height: 100vh;

@@ -1,3 +1,18 @@
+.part3 .btn {
+  background-color: #e8491d !important;
+  border-radius: 0 !important;
+  min-width: fit-content;
+  max-width: fit-content;
+  color: #fff;
+}
+.part3 .btn:hover {
+  background-color: #ee7655 !important;
+  color: #fff;
+}
+.part3 input {
+  min-width: 150px;
+}
+
 .dark {
   background-color: #35424A !important;
   color: #fff !important;
@@ -803,22 +818,11 @@
   width: 1%;
 }
 
-.btn {
-  background-color: #e8491d !important;
-  border-radius: 0 !important;
-  max-width: fit-content;
-  color: #fff;
-}
-.btn:hover {
-  background-color: #ee7655 !important;
-  color: #fff;
-}
-
 .part1 {
   border-bottom: #A9508B solid 4px;
 }
 
-.h3 span {
+.part1 > div span {
   color: #A9508B !important;
 }
 
@@ -829,6 +833,11 @@ nav a:hover, nav a:focus, nav a:active {
   color: #A9508B !important;
 }
 
+@media screen and (max-width: 924px) {
+  .part4 p {
+    display: none;
+  }
+}
 .part1, .part3, .part5 {
   background-color: #35424A !important;
   color: #fff !important;
@@ -836,15 +845,18 @@ nav a:hover, nav a:focus, nav a:active {
 
 .part2 {
   background: url(../img/showcase.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.part1, .part3 {
+  background-color: #35424A !important;
+  color: #fff !important;
+}
+
+.part6 p {
+  text-align: justify;
 }
 
 body {
